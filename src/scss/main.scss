@@ -80,3 +80,70 @@ body {
   align-items: center;
   gap: 62px;
 }
+
+.burger .principal {
+  color: #000;
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.burger .secondaire {
+  color: #000;
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.intro {
+  display: flex;
+  width: 1438px;
+  height: 682px;
+  padding: 18px 160px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.txtbtn {
+  display: flex;
+  width: 641px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 240px;
+}
+
+.sauvage {
+  color: #000;
+  font-family: "Helvetica Neue";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.txtbtn .cta {
+  display: flex;
+  width: 285px;
+  height: 70px;
+  padding: 17px 65px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #7a9fff;
+  color: #501e2c;
+  font-family: "Helvetica Neue";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.txtbtn .img {
+  background: url(../img/vin\ rouge.png) lightgray 50% / cover no-repeat;
+}
