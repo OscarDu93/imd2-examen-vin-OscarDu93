@@ -15,11 +15,6 @@ video {
 
 @import "bootstrap/scss/bootstrap-grid";
 
-.row {
-  border: 1px solid #000;
-  background: #d9d9d9;
-}
-
 @font-face {
   font-family: "HelveticaNeue";
   src: url("../../font/HelveticaNeue.woff") format("woff");
@@ -27,4 +22,61 @@ video {
 
 body {
   font-family: HelveticaNeue;
+}
+
+.header {
+  display: flex;
+  width: 1440px;
+  height: 238px;
+  padding: 30px 162px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  background: #fff;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 51px;
+  align-self: stretch;
+}
+
+.titre {
+  display: flex;
+  width: 1064px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta {
+  display: flex;
+  width: 114px;
+  align-items: center;
+  gap: 27px;
+  flex-shrink: 0;
+}
+
+.burger {
+  display: flex;
+  align-items: center;
+  gap: 119px;
+  align-self: stretch;
+}
+
+.principal {
+  display: flex;
+  width: 546px;
+  align-items: center;
+  gap: 47px;
+}
+
+.secondaire {
+  display: flex;
+  width: 451px;
+  align-items: center;
+  gap: 62px;
 }
