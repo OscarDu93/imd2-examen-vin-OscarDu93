@@ -22,6 +22,8 @@ video {
 
 body {
   font-family: HelveticaNeue;
+  width: 1440px;
+  height: 3593px;
 }
 
 .header {
@@ -144,6 +146,39 @@ body {
   line-height: normal;
 }
 
-.txtbtn .img {
+.Intro .img {
+  display: flex;
+  width: 1438px;
+  height: 682px;
+  padding: 18px 160px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
   background: url(../img/vin\ rouge.png) lightgray 50% / cover no-repeat;
+}
+
+.cepages .img {
+  width: 625px;
+  height: 526px;
+  flex-shrink: 0;
+}
+.cepages .col-7 {
+  display: flex;
+  width: 815px;
+  height: 526px;
+  padding: 62px 107px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  background: #fabeff;
+}
+
+.vogue {
+  color: #501e2c;
+  font-family: "Helvetica Neue";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
