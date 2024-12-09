@@ -35,7 +35,6 @@ body {
   align-items: flex-start;
   gap: 10px;
   flex-shrink: 0;
-  background: #fff;
 }
 
 .head {
@@ -101,15 +100,16 @@ body {
   line-height: normal;
 }
 
-.intro {
+.Intro {
   display: flex;
-  width: 1438px;
+  width: 1440px;
   height: 682px;
   padding: 18px 160px;
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
   flex-shrink: 0;
+  background: url(../img/vin\ rouge.png) lightgray 50% / cover no-repeat;
 }
 
 .txtbtn {
@@ -127,6 +127,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  align-self: stretch;
 }
 
 .txtbtn .cta {
@@ -146,27 +147,22 @@ body {
   line-height: normal;
 }
 
-.txtbtn img {
-  display: flex;
-  width: 1438px;
-  height: 682px;
-  padding: 18px 160px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-  flex-shrink: 0;
-  background: url(../img/vin\ rouge.png) lightgray 50% / cover no-repeat;
-}
-
 .cepages .col-7 {
   display: flex;
-  width: 815px;
+  width: 827px;
   height: 526px;
   padding: 62px 107px;
   align-items: flex-start;
   gap: 10px;
   flex-shrink: 0;
   background: #fabeff;
+}
+
+.cepages .col-5 {
+  width: 625px;
+  height: 526px;
+  flex-shrink: 0;
+  background: url(../img/Vignes.jpg) lightgray 50% / cover no-repeat;
 }
 
 .vogue {
@@ -180,13 +176,20 @@ body {
 
 .philo .col-7 {
   display: flex;
-  width: 815px;
+  width: 827px;
   height: 526px;
   padding: 62px 107;
   align-items: flex-start;
   gap: 10px;
   flex-shrink: 0;
   background: #ffa800;
+}
+
+.philo .col-5 {
+  width: 625px;
+  height: 526px;
+  flex-shrink: 0;
+  background: url(../img/raisin.png) lightgray 50% / cover no-repeat;
 }
 
 .Philo {
@@ -200,13 +203,20 @@ body {
 
 .vignerons .col-7 {
   display: flex;
-  width: 815px;
+  width: 827px;
   height: 526px;
   padding: 62px 107px;
   align-items: flex-start;
   gap: 10px;
   flex-shrink: 0;
   background: #86ffaf;
+}
+
+.vignerons .col-5 {
+  width: 625px;
+  height: 526px;
+  flex-shrink: 0;
+  background: url(../img/legoat.webp) lightgray 50% / cover no-repeat;
 }
 
 .goat {
@@ -218,17 +228,16 @@ body {
   line-height: normal;
 }
 
+.cave {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
 .cave img {
-  display: flex;
-  width: 1113px;
-  height: 309px;
-  padding: 134px 392px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  background: url(../img/cave.jpg) lightgray 50% / cover no-repeat;
+  width: 100%;
+  display: block;
 }
 
 .cave .cta {
@@ -241,6 +250,9 @@ body {
   gap: 10px;
   flex-shrink: 0;
   background: #7a9fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .Cave {
@@ -250,4 +262,133 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.footer {
+  display: flex;
+  width: 1440px;
+  height: 394px;
+  padding: 38px 162px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  background: #f8dee5;
+}
+
+.listA {
+  display: flex;
+  width: 260px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 209px;
+  flex-shrink: 0;
+}
+
+.langue {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.langue {
+  width: 212px;
+  color: #7a9fff;
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.logochato {
+  color: #7a9fff;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.foot .logo {
+  display: flex;
+  width: 71px;
+  justify-content: space-between;
+  align-items: center;
+  width: 23px;
+  height: 23px;
+  flex-shrink: 0;
+}
+
+.foot .listB {
+  color: #7a9fff;
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.listB {
+  display: flex;
+  width: 166px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 35px;
+}
+
+.foot .listC {
+  color: #7a9fff;
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.listC {
+  display: flex;
+  width: 166px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 37px;
+  flex-shrink: 0;
+}
+
+.IP .bio {
+  width: 166px;
+  height: 135px;
+  flex-shrink: 0;
+}
+
+.IP .gm {
+  width: 166px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.bas {
+  color: #7a9fff;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lists {
+  display: flex;
+  align-items: flex-start;
+  gap: 119px;
+}
+
+.foot {
+  display: flex;
+  align-items: flex-start;
+  gap: 119px;
+}
+
+.bas {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
