@@ -110,6 +110,7 @@ body {
   gap: 10px;
   flex-shrink: 0;
   background: url(../img/vin\ rouge.png) lightgray 50% / cover no-repeat;
+  margin-bottom: 55px;
 }
 
 .txtbtn {
@@ -147,6 +148,10 @@ body {
   line-height: normal;
 }
 
+.cepages {
+  margin-bottom: 55px;
+}
+
 .cepages .col-7 {
   display: flex;
   width: 827px;
@@ -174,6 +179,10 @@ body {
   line-height: normal;
 }
 
+.philo {
+  margin-bottom: 55px;
+}
+
 .philo .col-7 {
   display: flex;
   width: 827px;
@@ -199,6 +208,10 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.vignerons {
+  margin-bottom: 115px;
 }
 
 .vignerons .col-7 {
@@ -233,6 +246,7 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: auto;
+  margin-bottom: 115px;
 }
 
 .cave img {
@@ -262,133 +276,4 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-}
-
-.footer {
-  display: flex;
-  width: 1440px;
-  height: 394px;
-  padding: 38px 162px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-  background: #f8dee5;
-}
-
-.listA {
-  display: flex;
-  width: 260px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 209px;
-  flex-shrink: 0;
-}
-
-.langue {
-  display: inline-flex;
-  align-items: center;
-  gap: 24px;
-}
-
-.langue {
-  width: 212px;
-  color: #7a9fff;
-  font-family: "Helvetica Neue";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-
-.logochato {
-  color: #7a9fff;
-  font-family: Helvetica;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.foot .logo {
-  display: flex;
-  width: 71px;
-  justify-content: space-between;
-  align-items: center;
-  width: 23px;
-  height: 23px;
-  flex-shrink: 0;
-}
-
-.foot .listB {
-  color: #7a9fff;
-  font-family: "Helvetica Neue";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.listB {
-  display: flex;
-  width: 166px;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 35px;
-}
-
-.foot .listC {
-  color: #7a9fff;
-  font-family: "Helvetica Neue";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.listC {
-  display: flex;
-  width: 166px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 37px;
-  flex-shrink: 0;
-}
-
-.IP .bio {
-  width: 166px;
-  height: 135px;
-  flex-shrink: 0;
-}
-
-.IP .gm {
-  width: 166px;
-  height: 40px;
-  flex-shrink: 0;
-}
-
-.bas {
-  color: #7a9fff;
-  font-family: "Helvetica Neue";
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.lists {
-  display: flex;
-  align-items: flex-start;
-  gap: 119px;
-}
-
-.foot {
-  display: flex;
-  align-items: flex-start;
-  gap: 119px;
-}
-
-.bas {
-  display: flex;
-  align-items: center;
-  gap: 24px;
 }
