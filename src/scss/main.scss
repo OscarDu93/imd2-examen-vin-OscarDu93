@@ -543,6 +543,7 @@ body {
   align-items: flex-start;
   gap: 111px;
   align-self: stretch;
+  margin-right: 117px;
 }
 
 .descriptionvin .price {
@@ -585,6 +586,11 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  transition: 0.2s;
+}
+
+.vinphoto .cta:hover {
+  color: white;
 }
 
 .nfos {
@@ -596,6 +602,12 @@ body {
   flex-wrap: wrap;
   background: #ffdaf9;
   margin-bottom: 95px;
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.nfos:hover {
+  scale: 1.02;
 }
 
 .nfos .col-2 {
@@ -645,6 +657,13 @@ body {
 .ttxt img {
   width: 356px;
   height: 305px;
-  align-self: stretch;
   margin-bottom: 23px;
+  transition: 0.2s;
 }
+
+.ttxt img:hover {
+  transform: scale(1.05);
+}
+
+// ---------------------------------------------
+// page 3 :
