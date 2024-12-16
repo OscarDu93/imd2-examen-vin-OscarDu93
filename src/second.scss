@@ -92,6 +92,9 @@ body {
   line-height: normal;
 }
 
+// ---------------------------------------------
+// page 3 :
+
 .description {
   display: flex;
   flex-direction: column;
@@ -295,4 +298,98 @@ body {
 
 .ttxt img:hover {
   transform: scale(1.05);
+}
+
+.langue {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  color: #7a9fff;
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 162px;
+  padding-top: 110px;
+  margin-bottom: 143px;
+}
+
+.logochato {
+  color: #7a9fff;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 162px;
+  margin-bottom: 40px;
+}
+
+.col-3 .logo {
+  display: flex;
+  width: 71px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 162px;
+}
+
+.footer .col-3 {
+  color: #7a9fff;
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  flex-shrink: 0;
+}
+
+.col-3 .titre {
+  color: #7a9fff;
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 44px;
+  margin-bottom: 35px;
+}
+
+.footer .col-2 {
+  display: flex;
+  width: 166px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 68px;
+}
+
+.bas .col-3 {
+  color: #7a9fff;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bas .col-4 {
+  color: #7a9fff;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer {
+  height: 394px;
+  background-color: #f8dee5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
